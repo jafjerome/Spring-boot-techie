@@ -1,0 +1,19 @@
+Getting values from application.properties :
+
+@SpringBootApplication
+@Bean
+@ConfigurationProperties("Prefix Used")
+public Prefix_Used()
+{
+	retun new Prefix_Used();
+}
+
+have to create pojo class for properties :
+myproperties.java
+@Data
+@Validated
+public myprop{
+	declarations
+}
+
+F:\Spring boot\PROJECT\HOSPITAL_FRONT_DESK\Hospital_Front_Desk_Service\src\main\resources\specialist.properties
